@@ -1,0 +1,361 @@
+/*----------------------------------- begin----------------------------*/
+.m-bancontent{
+	width: 100%;
+	height: 620px;
+	overflow: hidden;
+	position: relative;
+}
+.gray{
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+	/*-----------------m-logo  begin--------------------------*/
+.m-bancontent .m-logo{
+	width: 1024px;
+	height: 78px;
+	position: absolute;
+	left: 50%;
+	transform: translatex(-50%);
+	z-index: 999;
+}
+.m-logo h1{
+	float: left;
+}
+.m-logo a{
+	display: block;
+	width: 170px;
+	height: 78px;
+}
+
+.mbb-content{
+	float: right;
+}
+.mbb-content .bannerbutton{
+	display: block;
+	height: 63px;
+	margin-right: 54px;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+.mbb-content .bannerbutton em{
+	display: block;
+	width: 96px;
+	height: 2px;
+	background-color: #2CA0F2;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	animation: anprogress 5s ease-out;
+}
+.mbb-content .bb_adr{
+	width: 96px;
+	background-image: url(../imgs/mobile/m-android.png) ;
+}
+.mbb-content .bb_iph{
+	width: 83px;
+	background-image: url(../imgs/mobile/m-iph.png);
+}
+.mbb-content .bb-ipa{
+	width: 64px;
+	background-image: url(../imgs/mobile/m-ipa.png);
+}
+
+	/*-----------------m-logo  end--------------------------*/
+
+.m-slide-con{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+.m-slide-con .m-box{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+/*public part*/
+.m-box .mbox-wrap{
+	width: 1024px;
+	height: 620px;
+	position: relative;
+	margin: 0 auto;
+}
+/*public lift*/
+.m-box .mb-left{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 400px;
+	height: 440px;
+	margin-left: 20px;
+	animation: animatmbLeft 1s ease-out;
+}
+.mb-left h2{
+	font-family: arial,\5FAE\8F6F\96C5\9ED1,\5b8b\4f53;
+	font-size: 46px;
+	line-height: 69px;
+	color: #fff;
+	font-weight: 500;
+	text-shadow: 0 2px 0 rgba(0, 0, 0,.6);
+}
+.mb-left .m-download{
+	margin-top: 14px;
+}
+.mb-left .m-download a.m-download-url{
+	float: left;
+	width: 251px;
+	height: 117px;
+	text-indent: -9999px;
+	overflow: hidden;
+	margin-top: 3px;
+	background: url(../imgs/mobile/m-download.png) no-repeat center center;
+}
+.mb-left .m-download  img{
+	width: 109px;
+	height: 109px;
+	border: 5px solid rgba(0, 0, 0,.11);
+	float: right;
+}
+.mb-left .m-dowmess{
+	color: #c0c3c7;
+	font-size: 12px;
+	margin-top: 14px;
+	position: relative;
+}
+/*public right*/
+.m-box .mb-right{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 451px;
+	height: 515px;
+	background: url(../imgs/mobile/m-anright.png) no-repeat center center;
+	animation: animatmbRight 1s ease-out;
+}
+		/*--------------------------Android  begin----------------------------*/
+.m-bancontent .m-bgs_1{
+	background:#181815 url(../imgs/mobile/m-bgs1.jpg) no-repeat top center;
+}
+.m-bgs_1 .version-ad{
+	position: absolute;
+	top: 26px;
+	left: 262px;
+	width: 60px;
+	height: 26px;
+	font-size: 16px;
+	line-height: 26px;
+	color: #fff;
+	text-align: center;
+	background-color: #2C8FD7;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0,.6);
+}
+.m-bgs_1 .mnewc-ad h3{
+	width: 182px;
+	color: #000;
+	opacity: .65;
+	font-size: 24px;
+	background-color: #A4A7B3;
+	border-radius: 4px;
+	line-height: 36px;
+	text-align: center;
+	margin-bottom: 16px;
+}
+.m-bgs_1 .mnewc-ad p{
+	font-size: 18px;
+	color: #fff;
+	line-height: 22px;
+	font-style: italic;
+	margin:0 0 8px;
+	font-family: tahoma,arial,\5FAE\8F6F\96C5\9ED1,\5b8b\4f53;
+}
+.m-bgs_1 .m-dowmess .m-ordercont{
+	float: right;
+	overflow: hidden;
+	color: #c0c3c7;
+	display: block;
+	width: 122px;
+	position: absolute;
+	top: -9px;
+	right: 20%;
+	border-radius: 5px;
+	background: url(../imgs/mobile/header-othersetup.png) no-repeat top right;
+}
+.m-dowmess .m-ordercont a{
+	color: #c0c3c7;
+	display: block;
+	height: 35px;
+	line-height: 35px;
+	text-indent: 7px;
+}
+.m-dowmess .m-ordercont:hover{
+	/* display: none; */
+	background-color: rgba(0, 0, 0, .6);
+}
+
+		/*--------------------------Android  end----------------------------*/
+
+		/*--------------------------Iphone  begin----------------------------*/
+.m-bancontent .m-bgs_2{
+	display: none;
+	background:#F0F0F0 url(../imgs/mobile/m-bgs2.jpg) no-repeat top center;
+}
+.m-bgs_2 h2{
+	text-shadow: none;
+	color: #333;
+}
+.m-bgs_2 .mnewc-ad p{
+	font-size: 16px;
+	line-height: 22px;
+	margin:0 0 4px;
+	color: #777;
+	font-family: arial,\5FAE\8F6F\96C5\9ED1,\5b8b\4f53;
+}
+.m-bgs_2 .version-ad{
+	position: absolute;
+	top: 18px;
+	left: 146px;
+	width: 54px;
+	height: 23px;
+	font-size: 16px;
+	line-height: 23px;
+	color: #fff;
+	text-align: center;
+	background-color: #A1A1A1;
+	border-radius: 50px;
+}
+.m-bgs_2 .m-download, .m-bgs_3 .m-download{
+	margin-top: 50px;
+}
+.m-bgs_2 .m-dowmess {
+	margin-top: 8px;
+	color: #999;
+}
+		/*--------------------------Iphone  end----------------------------*/
+
+		/*--------------------------Ipad  begin----------------------------*/
+.m-bancontent .m-bgs_3{
+	display: none;
+	background:#CC98BD url(../imgs/mobile/m-bgs3.jpg) no-repeat top center;
+}
+.m-bgs_3 .version-ad{
+	position: absolute;
+	top: 18px;
+	left: 214px;
+	width: 54px;
+	height: 23px;
+	font-size: 16px;
+	line-height: 23px;
+	color: #fff;
+	text-align: center;
+	background-color: rgba(0, 0, 0, .5);
+	border-radius: 50px;
+}
+.m-bgs_3 .mnewc-ad p{
+	font-size: 16px;
+	line-height: 22px;
+	margin:0 0 4px;
+	color: #fff;
+	font-family: arial,\5FAE\8F6F\96C5\9ED1,\5b8b\4f53;
+}
+.m-bgs_3 .m-dowmess{
+	margin-top: 8px;
+}
+.m-bancontent .m-bgs_3 .mb-right{
+	width: 645px;
+	height: 511px;
+	background: url(../imgs/mobile/m-ipright.png) no-repeat center center;
+}
+		/*--------------------------Ipad  end----------------------------*/
+		/********************************Animation catton begin******************************/
+@keyframes animatmbLeft{
+	0% {
+		transform:translateX(-150px);
+		opacity: 0; 
+	}
+    100% {
+		transform: translateX(0);
+		opacity: 1;
+    }
+}
+@keyframes animatmbRight{
+	 0% {
+		 transform:translateX(150px);
+		 opacity: 0;
+	 }
+	 100% {
+		 transform: translateX(0);
+		 opacity: 1;
+	 }
+ }
+@keyframes anprogress{
+	0% {
+		transform:translateX(-96px);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+		/***************************Animation cartton begin************************************/
+
+	/*--------------------------------button begin------------------------------------*/
+.m-w {
+	width: 1024px;
+	margin: 0 auto;
+}
+/*type page*/
+div.m-appbottom li{
+	width:255px;
+	height:222px;
+	float: left;
+	text-align: center;
+	border-right: 1px dotted #a6a6a6;
+	margin-top: 40px;
+	margin-bottom:40px;
+	/*display: block;*/
+}
+div.m-appbottom li img{
+	display: block;
+	margin: 0 53px 23px ;
+}
+div.m-appbottom li  h1{
+	font-size: 20px;
+	line-height: 40px;
+}
+div.m-appbottom li h2{
+	font-size: 14px;
+	color:#bdbdbd;
+	line-height: 28px;
+}
+div.m-appbottom li h3{
+	font-size: 14px;
+	color:#bdbdbd;
+}
+
+.m-footer div.m-foot1 p{
+	font-size: 13px;
+	padding:15px 0 5px;
+	text-align: center;
+	margin: 0 auto ;
+	color:#bdbdbd;
+}
+.m-footer div.m-foot1 a{
+	color:#bdbdbd;
+}
+.m-footer div.m-foot2 p{
+	font-size: 13px;
+	padding-bottom:15px;
+	color:#bdbdbd;
+	margin: 0 auto ;
+	text-align: center;
+}
+	/*--------------------------------button end------------------------------------*/
+
+/*-----------------------------------end-----------------------------*/

@@ -1,0 +1,74 @@
+﻿
+* {
+	margin: 0;
+	padding: 0;
+
+
+}
+/* 边距为0 */
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color:  #000;
+}
+input {
+	border: 0 none;
+	outline: none;
+}
+img {
+	border: 0 none;
+	vertical-align: middle;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+strong {
+	font-weight: normal;
+}
+
+i,
+em {
+	font-style: normal;
+}
+
+body {
+	font: 12px/100% "Calibri" ;
+	background-color: ;
+	/* bakeground requestment */
+	
+}
+
+/* single paseudo elements remove the floating */
+.clearfix::after {
+	content: "." ;/* conpatibility under IE6 */
+	height: 0;
+	display: block;
+	visibility: hidden;
+	/* hidding content */
+	clear: both;/* remove floating */
+}
+.clearfix {
+	*zoom： 1; /* for ie6,7conpatibility execute the above paseudo elements */
+}
+
+/* /* /* double paseudo elements clear float */
+.clearfix::before,
+.clearfix::after {
+	content: "";
+	display: table;
+/* 	tigger BFC mechanism */
+}
+.clearfix::after {
+	clear: both;
+}
+.clearfix {
+	*zoom: 1;
+}  

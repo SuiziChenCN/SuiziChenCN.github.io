@@ -1,0 +1,786 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    outline: none;
+    border: 0 none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-family: "微软雅黑";
+}
+
+img {
+    border: 0 none;
+    vertical-align: middle;
+}
+
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+b,
+strong {
+    font-weight: normal;
+    font-family: "Calibri";
+}
+
+i,
+em {
+    font-style: normal;
+    font-family: "Calibri";
+}
+
+
+.clearfix::before,
+.clearfix::after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.w{
+    width: 1200px;
+    margin: 0 auto;
+     position: relative;
+}
+body {
+    width: 100%;    
+    height: 100%;   
+}
+/*------------------------beginning------------------------------------*/
+/*-----------------------------------------------------------*/
+/*poster location*/
+.banner{
+   /*width: 1366px;*/
+    height: 610px;
+    position: relative;
+    overflow: hidden;
+    background-color:#999999;
+    width: 100%;
+    /*height: 100%;*/
+     
+}
+/*------------------download box right now-------------------------*/
+/* .center div{
+    width: 150px;
+    height: 42px;
+    border: 1px solid white;
+    text-align: center;
+    line-height: 42px;
+    font-size: 30px;
+    color: white;
+    z-index: 1000;
+    float: left;
+    position: absolute;
+    background-color: red;
+}
+.center div a{
+    font-size: 30px;
+    color: white;
+}
+ */
+/*-----------------poster carousel's weight hight location----------------------------------*/
+.banner .box{
+    width: 100%;
+    height:700px ;
+    margin:0 auto;
+   /*  top:-50px; */
+    position: absolute;
+    /* overflow: hidden; */
+
+}
+.banner .box{
+    float: left;
+}
+
+.banner .box  ul.center {
+    width: 100%;
+    height: 100%;
+}
+.banner .box  ul.center li {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.banner .box  ul.center li a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-size: cover;
+
+}
+.banner .box  ul.center li:nth-child(1) {
+    display: block;
+}
+.banner .box  ul.center li:nth-child(2) a{
+    background-image: url(../imgs/product/2.jpg) ;
+
+}
+.banner .box  ul.center li:nth-child(3) a{
+    background-image: url(../imgs/product/3.jpg) ;
+
+}
+.banner .box  ul.center li:nth-child(4) a {
+    background-image: url(../imgs/product/4.jpg) ;
+
+}
+
+/*-----------------poster carousel button--------------------------------*/
+.lbbtn{
+    width: 180px;
+    height: 30px;
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+.lbbtn  li{
+    float: left;
+    width: 30px;
+    height: 6px;
+    border-radius: 6px;
+    margin:0 4px;
+    background-color: #ddd;
+    display: inline-block;
+}
+
+/*----------------------navigation box lication-------------------------------------*/
+.banner .top{
+    z-index: 1;
+      width: 100%;
+    height:80px;
+    position:absolute; 
+    float: left;
+}
+/*-----------------logo location------------*/
+.banner .top .left{
+    width: 130px;
+    height:65px;
+    position: relative;
+    margin-left: 50px;
+    top:15px;
+}
+.banner .top .left img{
+    width: 100%;
+    height: 100%;
+
+}
+/*---------------------right navigation box-type-----------------------*/
+.banner .top .right{
+    width: 480px;
+    height:65px;
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    font-size: 18px;
+    line-height: 65px;
+    color: white;
+
+} 
+.banner .top .right li{
+    float: left;
+    width: 50px;
+    height: 40px;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.banner .top .right li a{
+    color: white;
+}
+/*---------------------cloud-type------------------------*/
+
+.right span {
+    position: absolute;
+    top: 45px;
+    left: 0px;
+    width: 50px;
+    height: 2px;
+    background-color:white;
+}
+/* ------------------------product------------ */
+
+/* -----------product1---------------------------- */
+/*big box and heart box's background and weight hight location text*/
+.product1d{
+    background-color:#e5e7e8;
+    width: 100%;
+    height: 620px;
+}
+.product1 {
+    position: relative;
+}
+.product1 h4{
+    font-size: 22px;
+    font-family: "Calibri";
+    line-height: 30px;
+    font-weight:bolder;
+    padding-top: 20px;
+}
+
+
+/* ----------------1-7----------- */
+/*----------------all box's weight hight background float-------------*/
+.product1 .yi,
+.product1 .er,
+.product1 .san,
+.product1 .si,
+.product1 .wu,
+.product1 .liu,
+.product1 .qi{
+    width: 390px;
+    height: 165px;
+    background-color:white;
+    position: absolute;
+    position:absolute;
+    float: left;
+
+}
+/*--------------3row box relative location------------------*/
+.product1 .yi,
+.product1 .er,
+.product1 .san{
+top:60px;
+}
+.product1 .si,
+.product1 .wu,
+.product1 .liu{
+    top:237px;
+}
+.product1 .qi{
+    top:417px;
+}
+/* ------------------------ */
+.product1 .yi,
+.product1 .si,
+.product1 .qi
+{
+ left: 0px;
+}
+
+.product1 .er,
+.product1 .wu{
+ left: 400px;
+}
+.product1 .san,
+.product1 .liu{
+ left: 800px;
+}
+
+/* -----------------box's logo icon location------------------- */
+.product1 .yi img,
+.product1 .er img,
+.product1 .san img,
+.product1 .si img,
+.product1 .wu img,
+.product1 .liu img,
+.product1 .qi img
+{
+   position: absolute;
+   top: 40px;
+   left: 40px;
+}
+/* ---------------text in top location---------------------- */
+.product1 .yi .xia,
+.product1 .er .xia,
+.product1 .san .xia,
+.product1 .si .xia,
+.product1 .wu .xia,
+.product1 .liu .xia,
+.product1 .qi .xia
+
+{
+    width: 236px;
+    height: 123px;
+    /* border: 1px solid black; */
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    font-size: 14px;
+}
+/* ----------------download location-------------------------- */
+.product1 .yi .xia .download,
+.product1 .er .xia .download,
+.product1 .san .xia .download,
+.product1 .si .xia .download,
+.product1 .wu .xia .download,
+.product1 .liu .xia .download,
+.product1 .qi .xia .download{
+    width: 64px;
+    height: 24px;
+    border: 1px solid #cccccc;
+    position: relative;
+    margin-top: 10px;
+}
+
+
+/*------------------------shift-in appeared-shadow--------------------*/
+.product1>div:hover,
+.product2>div:hover,
+.product3>div:hover
+{
+    box-shadow: 0px 0px 15px #9a9d9d;
+}
+
+/*-------------download text type----------------------*/
+.product1 .yi .xia .download a,
+.product1 .er .xia .download a,
+.product1 .san .xia .download a,
+.product1 .si .xia .download a,
+.product1 .wu .xia .download a,
+.product1 .liu .xia .download a,
+.product1 .qi .xia .download a{
+    right: 5px;
+    position: absolute;
+    color: #cccccc;
+    line-height: 24px;
+}
+/*------------product1's icon and download box shift-in and change color---------------*/
+.product1 .xia .download .ic_win{
+    background-image: url(../imgs/product/ic_spr.png);
+    background-position: 0 0;
+    position: relative;
+    top:4px;
+    left:4px;
+    display: inline-block;
+    overflow: hidden;
+    width: 20px;
+    height: 20px;
+}
+.product1  .xia .download:hover{
+    border-color: #268ffa;
+    cursor: pointer;
+}
+
+/*------------------2P tag tupe--------------------*/
+.product1 .yi .xia p.a,
+.product1 .er .xia p.a,
+.product1 .san .xia p.a,
+.product1 .si .xia p.a,
+.product1 .wu .xia p.a,
+.product1 .liu .xia p.a,
+.product1 .qi .xia p.a{
+    color:#808080; 
+    line-height: 20px;
+}
+.product1 .yi .xia p.b,
+.product1 .er .xia p.b,
+.product1 .san .xia p.b,
+.product1 .si .xia p.b,
+.product1 .wu .xia p.b,
+.product1 .liu .xia p.b,
+.product1 .qi .xia p.b{
+    color:#808080; 
+    line-height: 15px;
+    font-size: 12px;
+}
+/* ----------------------------------- */
+/* ------------------------product2------ ---------------------------- */
+.product2d{
+    background-color:#f6f6f6;
+    width: 100%;
+    height: 460px;
+}
+.product2 {
+    position: relative;
+}
+.product2 h4{
+    font-size: 22px;
+    font-family: "Calibri";
+    line-height: 30px;
+    font-weight:bolder;
+    padding-top: 20px;
+}
+/* ----------------------------------------- */
+.product2 .yi,
+.product2 .er,
+.product2 .san,
+.product2 .si{
+    width: 390px;
+    height: 165px;
+    background-color:white;
+    position: absolute;
+    position:absolute;
+    float: left;
+
+}
+
+.product2 .yi,
+.product2 .er,
+.product2 .san{
+top:60px;
+}
+.product2 .si{
+    top:237px;
+}
+
+/* ------------------------ */
+.product2 .yi,
+.product2 .si
+{
+ left: 0px;
+}
+
+.product2 .er{
+ left: 400px;
+}
+.product2 .san{
+ left: 800px;
+}
+
+/* ------------------------------------ */
+.product2 .yi img,
+.product2 .er img,
+.product2 .san img,
+.product2 .si img
+{
+   position: absolute;
+   top: 40px;
+   left: 40px;
+}
+/* ------------------------------------- */
+.product2 .yi .xia,
+.product2 .er .xia,
+.product2 .san .xia,
+.product2 .si .xia
+
+{
+    width: 236px;
+    height: 123px;
+    /* border: 1px solid black; */
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    font-size: 14px;
+}
+
+/*---------------------------------------------------*/
+
+.product2  .xia .download3,
+.product2 .xia .download,
+.product2  .xia .download1,
+.product2  .xia .download2{
+    width: 64px;
+    height: 24px;
+    border: 1px solid #cccccc;
+    position: relative;
+    margin-top: 8px;
+    margin-right: 10px;
+    position: relative;
+    float: left;
+}
+
+.product2 .yi .xia .download1 a,
+.product2 .yi .xia .download2 a,
+.product2 .yi .xia .download3 a,
+.product2 .er .xia .download1 a,
+.product2 .er .xia .download2 a,
+.product2 .san .xia .download a,
+.product2 .si .xia .download1 a,
+.product2 .si .xia .download2 a{
+    line-height: 24px;
+    right: 7px;
+    position: absolute;
+    color: #cccccc;
+}
+.product2 .yi .xia p.a,
+.product2 .er .xia p.a,
+.product2 .san .xia p.a,
+.product2 .si .xia p.a{
+    color:#808080; 
+    line-height: 20px;
+}
+.product2 .yi .xia p.b,
+.product2 .er .xia p.b,
+.product2 .san .xia p.b,
+.product2 .si .xia p.b{
+    color:#808080; 
+    line-height: 15px;
+    font-size: 12px;
+    position: absolute;
+    bottom: 37px;
+}
+
+/* ----------------------------product2 elf icon--------------- */
+.product2 .yi .xia .download1 .ic_win,
+.product2 .yi .xia .download2 .ic_win,
+.product2 .yi .xia .download3 .ic_win,
+.product2 .er .xia .download1 .ic_win,
+.product2 .er .xia .download2 .ic_win,
+.product2 .san .xia .download .ic_win,
+.product2 .si .xia .download1 .ic_win,
+.product2 .si .xia .download2 .ic_win
+{
+    position: relative;
+    left:6px;
+    display: inline-block;
+    overflow: hidden;
+
+}
+
+.product2 .yi .xia .download1 .ic_win,
+.product2 .er .xia .download1 .ic_win,
+.product2 .si .xia .download1 .ic_win{
+    background-image: url(../imgs/product/ic_spr.png);
+    background-position: -36px 0px;
+    width: 20px;
+    height: 20px;
+    top:2px;
+}
+.product2 .yi .xia .download2 .ic_win,
+.product2 .er .xia .download2 .ic_win,
+.product2 .san .xia .download .ic_win,
+.product2 .si .xia .download2 .ic_win
+{
+    background-image: url(../imgs/product/ic_spr.png);
+    background-position: -72px 0px;
+    width: 28px;
+    height: 17px;
+    top:5px;
+}
+.product2 .yi .xia .download3 .ic_win{
+    background-image: url(../imgs/product/ic_spr.png);
+    background-position: -109px 0px;
+    width: 30px;
+    height: 20px;
+    top:3px;
+}
+
+.product2 .yi .xia .download1:hover,
+.product2 .yi .xia .download2:hover,
+.product2 .yi .xia .download3:hover,
+.product2 .er .xia .download1:hover,
+.product2 .er .xia .download2:hover,
+.product2 .san .xia .download:hover,
+.product2 .si .xia .download1:hover,
+.product2 .si .xia .download2:hover
+{
+    border-color: #268ffa;
+    cursor: pointer;
+}
+
+
+
+/* ------------------------------------------------ */
+/* ---------------product3------------------------- */
+.product3d{
+    background-color:#e5e7e8;
+    width: 100%;
+    height: 290px;
+}
+.product3 {
+    position: relative;
+}
+.product3 h4{
+    font-size: 22px;
+    font-family: "Calibri";
+    line-height: 30px;
+    font-weight:bolder;
+    padding-top: 20px;
+}
+/* -------------------------------------- */
+.product3 .yi,
+.product3 .er{
+    width: 390px;
+    height: 172px;
+    background-color:white;
+    position: absolute;
+    position:absolute;
+    float: left;
+    top:60px;
+
+}
+
+
+/* ------------------------ */
+.product3 .yi
+{
+ left: 0px;
+}
+
+.product3 .er{
+ left: 400px;
+}
+
+
+
+/* ------------------------------------- */
+.product3 .yi .xia,
+.product3 .er .xia
+
+{
+    width: 175px;
+    height: 105px;
+    /* border: 1px solid black; */
+    position: absolute;
+    right: 36px;
+    bottom: 36px;
+    font-size: 14px;
+    text-align: center;
+}
+/* ------------------------------------------ */
+.product3 .yi .xia .buy,
+.product3 .er .xia .buy{
+    width: 170px;
+    height: 38px;
+    border: 1px solid #cccccc;
+    position: relative;
+    bottom: 0px;
+    margin-top: 30px;
+
+}
+
+.product3 .yi .xia .buy a,
+.product3 .er .xia .buy a{
+    color: red;
+    line-height: 38px;
+    text-align: center;
+}
+.product3 .yi .xia p.a,
+.product3 .er .xia p.a{
+    color:#808080; 
+    line-height: 20px;
+}
+.product3 .yi .xia p.b,
+.product3 .er .xia p.b{
+    color:#808080; 
+    line-height: 15px;
+    font-size: 12px;
+}
+/* -------------------botton---------------------- */
+.footerd{
+    background-color:#9a9d9d;
+    width: 100%;
+    height: 300px;
+}
+.footer a,
+.footer p,
+.footer h3{
+    font-family: "Calibri";
+}
+.footer{
+    position: relative;
+    color: white;
+    text-align: center;
+    /*overflow: hidden;*/
+    border:1px solid #9a9d9d;
+}
+.footer .other{
+    position: absolute;
+    width: 165px;
+    height: 50px;
+    /* border: 1px solid white; */
+    top:90px;
+    left: 520px;
+}
+.footer .fans{
+    display: block;
+    margin-top:50px;
+    color: white;
+
+}
+.footer .a{
+    position: absolute;
+    top:192px;
+    left: 300px;
+    text-align: center;
+}
+.footer .a a{
+    float: left;
+    margin-right: 35px;
+    color: white;
+    font-size: 24px;
+}
+/*---------copyright and icon--------------------------------*/
+
+.footer .bianhao{
+    font-size: 13px;
+    margin-top: 167px; 
+}
+.footer .copy{
+    font-size: 12px;
+    margin-top:10px; 
+}
+/* ------------------------ */
+
+.other a{
+    width: 55px;
+    height: 52px;
+    display: inline-block;
+    background: url("../imgs/product/follow_spr.png");
+    }
+.other a:nth-child(1){
+    background-position: 0px 0px;
+}
+.other a:nth-child(1):hover{
+    background-position: 0px -73px ;
+
+}
+.other a:nth-child(2){
+    background-position: 190px 0px;
+}
+.other a:nth-child(2):hover{
+    background-position: 190px -73px ;
+}
+.other a:nth-child(3){
+    background-position: 124px 0px;
+}
+.other a:nth-child(3):hover{
+    background-position: 124px -73px ;
+}
+/*-------------popup QR code-------------------*/
+.qr{
+    background-color: white;
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;
+    position: absolute;
+    top: -60px;
+    left: 480px;
+    display: none;
+
+}
+.xqr{
+    width: 105px;
+    height: 105px;
+    position: absolute;
+    top: 7px;
+    left: 7px;
+}
+.qr .sanjiao{
+    width: 0px;
+    height: 0px;
+    border:10px solid red;
+    border-color:#ffffff transparent transparent transparent;
+    position: absolute;
+    top: 130px;
+    left: 45%;
+}

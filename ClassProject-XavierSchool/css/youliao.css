@@ -1,0 +1,705 @@
+.warp {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    padding: 10px 0 15px;
+    line-height: 50px;
+    background: #000000;
+    min-width: 993px;
+}
+
+.main {
+    width: 993px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.header_logo {
+    float: left;
+    margin-right: 20px;
+    top: -22px;
+    position: absolute;
+}
+
+.header_logo em{
+    position: absolute;
+    left: 62px;
+    top: 22px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.header_logo, .header_right {
+    height: 100%;
+}
+
+.logo a {
+    width: 134px;
+    height: 50px;
+    background: url(../imgs/youliao/logo.png) no-repeat 0 0;
+    display: block;
+}
+
+.logo_txt {
+    text-indent: -9999px;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+}
+
+.header_banner {
+    float: right;
+    height: 100%;
+    /*margin-right: 130px;*/
+}
+
+.header_banner li {
+    position: relative;
+    display: list-item;
+
+}
+
+.header_banner li, .header_banner li a, .header_banner li a em {
+    float: left;
+    height: 50px;
+    font-size: 16px;
+    color:#fff;
+    border-bottom: 2px solid #000;
+}
+
+
+.header_banner li a em:hover{
+    border-bottom: 2px solid #fff;
+}
+
+.header_banner li a {
+    margin: 0 19px;
+    text-align: center;
+    height: 47px;
+    /*border-bottom: 3px solid #000;*/
+}
+
+/*.header_banner li.moveGo{*/
+    /*border-bottom-color: #fff;*/
+/*}*/
+
+.header_banner .last .icon-hot {
+    position: absolute;
+    top: 0px;
+    left: 108px;
+    color: rgb(208, 69, 69);
+    font-size: 20px;
+}
+
+.header_login {
+    right: 0;
+    position: absolute;
+    float: right;
+    height: 45px;
+    padding: 0 22px 0 0;
+    background-position: right -46px;
+}
+
+.header_login a {
+    float: left;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.header_login_list {
+    float: right;
+    position: absolute;
+    top: 60px;
+    right: 0px;
+    width: 158px;
+    background: #2b2b2b;
+    border: 1px solid #202020;
+    box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.50);
+    border-radius: 4px;
+}
+
+.header_login_list li, .header_login_list li a {
+    float: left;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.header_login_list .icon {
+
+    float: left;
+    width: 18px;
+    height: 18px;
+    margin: 10px 10px 0 18px;
+}
+
+.header_login_list .icon_a {
+    background: url("../imgs/youliao/toplist.png") no-repeat;
+}
+
+.header_login_list .icon_b {
+    background: url("../imgs/youliao/toplist.png") no-repeat;
+    background-position: -20px -20px;
+}
+
+.header_login_list .icon_c {
+    background: url("../imgs/youliao/toplist.png") no-repeat;
+    background-position: -20px -40px;
+}
+
+.header_login_list .icon_d {
+    background: url("../imgs/youliao/toplist.png") no-repeat;
+    background-position: 0px -20px;
+}
+
+.header_login_list .icon_e {
+    background: url("../imgs/youliao/toplist.png") no-repeat;
+    background-position: -20px -80px;
+}
+
+.header_login_list em {
+
+    float: left;
+    width: 100px;
+
+}
+
+.header_login_list .li {
+    border: 1px solid #232323;
+    border-width: 1px 0;
+}
+
+/*.header_login_list li:hover {*/
+    /*opacity: 0.7;*/
+/*}*/
+
+.header_login_list a {
+    position: relative;
+    height: 38px;
+    overflow: hidden;
+    color: #ccc;
+    line-height: 39px;
+}
+
+
+
+.main_center{
+    width: 993px;
+    margin: 0 auto;
+    position: relative;
+}
+.feature {
+    padding-top: 70px;
+    width: 100%;
+    margin: 0px auto 0px;
+    clear: both;
+    position: relative;
+
+}
+.slider {
+    margin-top: 25px;
+    height: 470px;
+    position: relative;
+}
+
+.slider ul li {
+    z-index: 100;
+    position: absolute;
+    display: none;
+}
+
+
+.slider ul li:first-child {
+    display: block;
+}
+
+
+.feature_list {
+   right:3px;
+    z-index: 50;
+    top: -75px;
+    width: 245px;
+    height: 510px;
+    /*background: url(../imgs/youliao/phone_bg.png) no-repeat 0 0;*/
+    position: absolute;
+    border-radius: 40px;
+    box-shadow: 0 10px 33px rgba(0, 0, 0, .09);
+    background-size: contain;
+    /*background-color: #113544;*/
+    animation: color_animate 3s both linear infinite;
+
+}
+
+@keyframes  color_animate {
+    0% {
+        /*transform: rotate(0deg);*/
+        background-color: #000000;
+    }
+
+    50% {
+        /*transform: rotate(0deg);*/
+        background-color:  #113544;
+    }
+    100% {
+        /*transform: rotate(0deg);*/
+        background-color: #000;
+    }
+}
+
+
+.feature_video {
+    width: 221px;
+    height: 393px;
+    top: 46px;
+    margin-left: 10.5px;
+    position: absolute;
+}
+
+video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.hot_video {
+    clear: both;
+    margin-bottom: 80px;
+}
+
+.bofang {
+    position: absolute;
+display: block;
+    /*font-size: 62px;*/
+    z-index: 30;
+    width: 80px;
+    height: 80px;
+
+    opacity: 0;
+    background: url("../imgs/youliao/icon_youliao.png") no-repeat 100% 100%;
+    /*color: #000000;*/
+    background-size: cover;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+
+.hot_video_tis {
+    height: 76px;
+    line-height: 46px;
+    /*color: #d0d0d2;*/
+    /*color: rgba(255,255,255,.8);*/
+    color: #ccc;
+    font-size: 16px;
+}
+.icon-zhibo,.chajian_banner .icon-xiaoshuozhongxin{
+    font-size: 26px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.hot_video_list {
+    overflow: hidden;
+}
+
+.j-hot-videos {
+    width: 1003px;
+    margin: 4px;
+}
+
+.hot_video_item {
+    float: left;
+    margin-right: 8px;
+    width: 157px;
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    font-size: 12px;
+    transform: translateZ(0);
+    display: list-item;
+    z-index: 100;
+}
+
+.hot_video_item a {
+    display: block;
+    cursor: pointer;
+}
+
+.black{
+    position: absolute;
+    z-index: 9;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    background-color: #000;
+    transition: all ease-in 250ms;
+}
+
+.hot_video_img {
+    height: 279px;
+    overflow: hidden;
+}
+
+.hot_video_img img {
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+}
+
+.icon_voice {
+    z-index: 100;
+    display: block;
+    width: 37px;
+    height: 37px;
+    position: absolute;
+    right: 108px;
+   bottom: 54px;
+    cursor: pointer;
+    animation: voice_animate 1s both linear infinite;
+}
+
+/*icon cartoon effect*/
+@keyframes voice_animate {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-30deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(30deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+/*cut when click icon*/
+.icon_quiet {
+    background-position: -45px 0;
+}
+
+.hot_video_info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px 4px 12px 43px;
+    width: 110px;
+    color: #ffffff;
+    border-radius: 0 0 8px 8px;
+}
+
+.head_pic {
+    width: 33px;
+    height: 33px;
+    border-radius: 100%;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    margin-top: -11px;
+}
+
+.head_pic img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    vertical-align: middle;
+}
+
+.user_name {
+    font-weight: bold;
+}
+
+.user_name, .head_info_local span {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.head_info {
+    line-height: 14px;
+    font-size: 14px;
+}
+
+.head_info_detail {
+
+    line-height: 18px;
+    margin-left: 5px;
+}
+
+.iconfont.icon-nansheng,
+.iconfont.icon-nvsheng {
+    vertical-align: middle;
+    background-color: skyblue;
+    border-radius: 100%;
+    padding: 1px;
+    font-size: 14px;
+}
+
+.iconfont.icon-nvsheng {
+    background-color: pink;
+}
+
+.head_info_local {
+    line-height: 18px;
+}
+
+.icon-local {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 3px;
+    width: 12px;
+    height: 14px;
+    background-position: -24px 0px;
+}
+
+.hot_video_item:hover {
+    box-shadow: 0px 1px 3px 2px #000000;
+
+}
+
+.fix{
+
+    position: fixed;
+    right: 2px;
+    bottom: 15%;
+    z-index: 80;
+    width: 54px;
+}
+
+.fix .button {
+    margin-top: 1px;
+    font-size: 14px;
+    float: right;
+
+}
+
+.fix .button a{
+    height: 52px;
+    width: 52px;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+    /*border: 1px solid #fff;*/
+    letter-spacing: 1px;
+    color: #fff;
+    /*background-color: #fff;*/
+}
+
+.fix .button a:hover{
+    border-color: #f00986;
+}
+.fix .button .icon {
+    height: 52px;
+    width: 52px;
+    display: block;
+    /*color: #f00986;*/
+}
+
+.fix .button .icon_1 {
+    background-position: -52px 0px;
+}
+
+.fix .button .icon_2 {
+    background-position: -104px 0px;
+}
+.fix .button .icon_3{
+    background-position: -156px 0px;
+}
+.fix .button .icon_4{
+    background-position: -209px 0px;
+}
+
+.fix .button .text {
+    padding: 6px;
+    width: 42px;
+    height: 42px;
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 5px;
+    /*color: #1dd388;*/
+}
+
+#zhibo{
+    /*background-color: #1dd388;*/
+    border-color: #1dd388;
+    /*transition: .3s;*/
+    position: relative;
+}
+
+.breathe{
+    height: 52px;
+    width: 52px;
+    position: absolute;
+    top: 0;
+    /*transition: .4s;*/
+}
+
+.breathe_bg{
+    /*transition: .4s;*/
+    width: 32px;
+    height: 32px;
+    margin: 7px 12px  11px 12px;
+    border-radius: 50%;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    background-color: #fff;
+    animation: breathe_animate 1.5s infinite ;
+    /*opacity: 0.8;*/
+}
+
+@keyframes breathe_animate {
+    0% {
+        /*transform: rotate(0deg);*/
+       transform: scale(1);
+    }
+
+    50% {
+        /*transform: rotate(0deg);*/
+        transform: scale(1.3);
+    }
+
+    100% {
+        /*transform: rotate(0deg);*/
+        transform: scale(1);
+    }
+}
+
+.breathe_icon{
+    width: 14px;
+    height: 23px;
+    margin: 0 auto;
+    background: url(../imgs/youliao/zhibo_youliao.png) no-repeat;
+    display: block;
+    position: relative;
+    top: 12px;
+    left: 2px;
+    z-index: 2;
+opacity: 0.8;
+}
+
+#icon_5{
+    color:#fff;
+}
+
+.button .code{
+    position: absolute;
+    right: 54px;
+    /*filter: alpha(opacity=0);*/
+    opacity: 0;
+    /*transition: .3s;*/
+    height: 0;
+    width: 0;
+    bottom: 110px;
+    border-radius: 3px;
+    background-color: #fff;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.code img   {
+    width: 100%;
+    height: 100%;
+}
+
+canvas{
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+.chajian{
+    z-index: 100;
+    position: relative;
+    width: 993px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.chajian_banner{
+    margin: 0 auto;
+    width:100%;
+    height: 96px;
+    line-height: 46px;
+    /*background-color: red;*/
+    position: relative;
+    color: #ccc;
+}
+
+.chajian_banner h2,.hot_video_tis h2{
+    text-align: center;
+}
+
+ .chajian .chajian_list {
+     width: 100%;
+     height: 100%;
+     /*background-color: blue;*/
+     position: relative;
+ }
+
+.chajian .chajian_list ul{
+    width: 100%;
+    height: 1200px;
+    position: relative;
+}
+
+.chajian_list ul {
+    position: relative;
+}
+.chajian .chajian_list  li{
+    position: absolute;
+}
+.chajian .chajian_list #card1{
+left: 0;
+    /*float: left;*/
+    /*margin-right: -60px;*/
+    margin-left: 40px;
+    /*margin-top:15px;*/
+    margin-bottom: 140px;
+}
+
+#card2{
+    /*float: right;*/
+    right: 0;
+    margin-right: 40px;
+    margin-bottom: 140px;
+}
+#card3{
+    /*float: left;*/
+    left: 0;
+    margin-left: 40px;
+    bottom: 250px;
+    /*position: absolute;*/
+}
+
+#card4{
+    /*position: absolute;*/
+    right: 0;
+    bottom: 250px;
+    margin-right: 40px;
+    float: right;
+}
+
+#card3 img{
+position: relative;
+left: -22px;
+}
+
+.fix .button span{
+    opacity: 0.8;
+}

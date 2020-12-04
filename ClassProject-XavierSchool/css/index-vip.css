@@ -1,0 +1,1675 @@
+body {
+    font-family: arial,"Microsoft YaHei","Calibri","Hiragino Sans GB","WenQuanYi Micro Hei",tahoma,simsun,"宋体";
+
+}
+
+a {
+    font-size: 14px;
+    color: #fff;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.none {
+    display: none;
+}
+
+.bg {
+    position: absolute;
+    background: url("../imgs/bg.jpg") -9px -40px;
+    height: 960px;
+    width: 100%;
+}
+
+
+
+.right_nav {
+    position: fixed;
+    z-index: 9999;
+    bottom: 40px;
+    right: 40px;
+    height: 101px;
+    width: 50px;
+    display: none;
+}
+
+.right_nav .top {
+    height: 50px;
+    margin-bottom: 1px;
+    background: url("../imgs/bg_basespr.png") -138px -65px;
+    cursor: pointer;
+}
+
+.right_nav .top:hover {
+    background: url("../imgs/bg_basespr.png") -207px -65px;
+}
+
+.right_nav .bottom {
+    height: 50px;
+    background: url("../imgs/bg_basespr.png") 0 -65px;
+    cursor: pointer;
+}
+
+.right_nav .bottom:hover {
+    background: url("../imgs/bg_basespr.png") -69px -65px;
+}
+
+
+.right_nav .alert_box {
+    position: absolute;
+    right: 50px;
+    top: -8px;
+    width: 100px;
+    background: #fff;
+    padding: 8px;
+    border: 1px #ddd solid;
+    box-shadow: 0px 1px 4px rgba(12,4,7,0.2);
+    display: none;
+
+}
+
+.top-nav .logo {
+    float: left;
+}
+
+#top-nav-list ul {
+    float: left;
+}
+
+.right_nav .alert_box i {
+    position: absolute;
+    top:23px;
+    right: -13px;
+    height: 0;
+    width: 0;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent transparent transparent white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header {
+    height: 70px;
+    background-color: #33054b;
+    position: relative;
+    z-index: 9999;
+}
+
+.header .top-nav {
+    position: relative;
+}
+
+.header .top-nav .logo h1 {
+    margin: 15px 35px 0 0;
+}
+
+.header .top-nav .logo h1 a {
+    display: block;
+    height: 40px;
+    width: 102px;
+    background: url('../imgs/logo_hd.png') no-repeat center center;
+}
+
+.header .top-nav .top-nav-list ul {
+    overflow: hidden;
+}
+
+.header .top-nav .top-nav-list ul li {
+    position: relative;
+    float: left;
+    line-height: 70px;
+    margin-right: 30px;
+}
+
+.header .top-nav .top-nav-list ul li:nth-child(5) span {
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 186px;
+    background: url("../imgs/tab-nianfei.png");
+}
+
+.header div.box {
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    background-color: #33054b;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    display: none;
+}
+
+.header div.box a {
+    position: relative;
+    left: -200px;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.header div.box a:hover {
+    color: #aaa;
+}
+
+.header .top-nav .top-nav-list ul li i {
+    position: absolute;
+    right: -24px;
+    top: 26px;
+    width: 22px;
+    height: 11px;
+    background: url("../imgs/bg_basespr.png") -58px -24px;
+}
+
+.header .top-nav .top-nav-list ul li:last-child i {
+
+    background: url("../imgs/bg_base_spr24.png") -50px -25px;
+}
+
+
+.header .top-nav .top-nav-list ul li:first-child a {
+    color: #aaa;
+}
+
+.header .top-nav .top-nav-list ul li a:hover {
+    color: #aaa;
+}
+
+.header .top-nav .user-info .top {
+    position: absolute;
+    right: 69px;
+    top: 16px;
+}
+
+.header .top-nav .user-info .top .login {
+    height: 39px;
+    width: 110px;
+    line-height: 39px;
+}
+
+.header .top-nav .user-info .top .login a:hover {
+    color: #aaa;
+}
+
+
+.top-nav .user-info .top .login span {
+    float: left;
+    width: 38px;
+    height: 37px;
+    background: url(../imgs/bg_base_spr24.png) -99px 0;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+
+.top-nav .user-info .top .login a:hover span {
+    background: url(../imgs/bg_base_spr26.png) -249px 0;
+}
+
+
+
+.top-nav .user-info .bottom {
+    width: 263px;
+    height: 53px;
+    position: absolute;
+    top: 69px;
+    right: 0;
+    background: url("../imgs/bg_base_spr24.png") 0 -99px;
+}
+
+.top-nav .user-info .bottom a {
+    position: absolute;
+    left: 70px;
+    display: block;
+    width: 136px;
+    height: 36px;
+    background-color: #ffc52a;
+    font-size: 16px;
+    font-weight: bold;
+    color: #975500;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 36px;
+}
+
+.top-nav .user-info .bottom a:hover {
+    background-color: #FFDE2A;
+}
+
+.banner {
+    position: relative;
+    top: -70px;
+    left: 50%;
+    margin-left: -600px;
+    height: 540px;
+    width: 1200px;
+}
+
+.banner .top ul li {
+    position: absolute;
+    opacity: 0;
+}
+
+body .banner .top ul .banner_open {
+    display: block;
+}
+
+.banner .left {
+    position: absolute;
+    left: -30px;
+    top: 50%;
+    width: 34px;
+    height: 64px;
+    background: url("../imgs/index_spr24.png");
+}
+
+.banner .left:hover {
+    background: url("../imgs/index_spr24.png") -50px 0;
+}
+
+.banner .right {
+    position: absolute;
+    right: -30px;
+    top: 50%;
+    width: 34px;
+    height: 64px;
+    background: url("../imgs/index_spr24.png") -150px 0;
+}
+
+.banner .right:hover {
+    background: url("../imgs/index_spr24.png") -100px 0;
+
+}
+
+.banner .bottom {
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    bottom: 5.56%;
+    width: 100%;
+    text-align: center;
+    font-size: 0;
+}
+
+.banner .bottom li {
+    font-size: 13px;
+    width: 94px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+}
+
+.banner .bottom li a {
+    font-size: 13px;
+    padding: 10px 15px;
+    border-bottom: 2px solid rgba(0, 0, 0, .3);
+}
+
+a.banner_on {
+    border-bottom: 2px solid #fff !important;
+    background-color: rgba(255, 255, 255, .2);
+}
+
+.banner_b {
+    position: relative;
+    margin-top: -70px;
+    height: 390px;
+}
+
+.banner_b .top ul li {
+    position: relative;
+    float: left;
+    width: 240px;
+    height: 100px;
+    background-color: #9C00FF;
+}
+
+.banner_b .top ul li .img-title {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background: url('../imgs/icons_spr24.png');
+    margin: 10px 15px;
+}
+
+.banner_b .top ul li {
+    cursor: pointer;
+    position: relative;
+}
+
+.banner_b .top ul li .font-right {
+    float: right;
+}
+
+.banner_b .top ul li .font-top {
+    display: block;
+    width: 130px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    margin-top: 22px;
+    color: #fff;
+
+}
+
+.banner_b .top ul li .font-bottom {
+    display: block;
+    height: 21px;
+    width: 130px;
+    line-height: 21px;
+    color: #cccccc;
+    font-size: 14px;
+
+}
+
+
+.banner_b .top ul li i {
+    position: absolute;
+    left: 0;
+    top: 18px;
+    height: 64px;
+    width: 1px;
+    background-color: rgba(255, 255, 255, .4);
+}
+
+body .banner_b .top ul li .font-right .span_color {
+    color: #e41e27;
+}
+
+body .banner_b .top ul li.li_color {
+    background-color: #fff;
+}
+
+body .banner_b .bottom {
+    height: 290px;
+    background-color: #fff;
+}
+
+.banner_b .top ul li span i {
+    display: inline-block;
+    margin-top: 13px;
+    margin-left: 36px;
+    width: 38px;
+    height: 38px;
+}
+
+.banner_b .top ul li span i.wan {
+    background: url('../imgs/icons_spr24.png') -20px -222px;
+}
+
+.banner_b .top ul li span i.zhuan {
+    background: url('../imgs/icons_spr24.png') -120px -222px;
+}
+
+.banner_b .top ul li span i.niao {
+    width: 50px;
+    height: 50px;
+    margin-left: 28px;
+    background: url('../imgs/icons_spr24.png') -213px -20px;
+}
+
+.banner_b .top ul li span i.shuang {
+    background: url('../imgs/icons_spr24.png') -320px -222px;
+}
+
+.banner_b .top ul li span i.shiyi {
+    background: url('../imgs/icons_spr24.png') -420px -222px;
+}
+
+.banner_b .top ul li:hover span.img-title {
+    background: url('../imgs/icons_spr24.png') 0 -100px;
+}
+
+.banner_b .top ul li:hover span i.niao {
+    background: url('../imgs/icons_spr24.png') -213px -120px;
+}
+
+.banner_b .top ul li i.new {
+    position: absolute;
+    left: 200px;
+    top: 0;
+    width: 27px;
+    height: 27px;
+    background: url("../imgs/index_spr24.png") -150px -150px;
+    overflow: hidden;
+}
+
+.banner_b .top ul li i.new span {
+    position: absolute;
+    top: 0;
+    height: 27px;
+    width: 27px;
+    background: url("../imgs/index_spr24.png") -100px -199px;
+}
+
+
+/*---------------------------bottom box-------------------------*/
+body .banner_b .bottom {
+    position: absolute;
+}
+
+body .banner_b .bottom ul li {
+    position: relative;
+    height: 228px;
+    width: 275.5px;
+    float: left;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 5px;
+    margin: 30px 20px 0 0;
+    cursor: pointer;
+}
+
+body .banner_b .bottom ul li:first-child {
+    width: 255px;
+    background-color: #FFF5D6;
+    margin: 30px 20px 0 30px;
+    cursor: default;
+}
+
+body .banner_b .bottom ul li.first-li div.heng {
+    position: absolute;
+    border-radius: 11px;
+    margin-left: -55px;
+    top: 30px;
+    left: 50%;
+    height: 11.5px;
+    width: 110px;
+    background-color: #D39F00;
+}
+
+body .banner_b .bottom ul li.first-li div.heng i {
+    position: absolute;
+    top: -48.5px;
+    left: 50%;
+    margin-left: -40px;
+    width: 80px;
+    height: 60px;
+    overflow: hidden;
+}
+
+body .banner_b .bottom ul li.first-li div.heng i span {
+    position: absolute;
+    top: 0;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 20px;
+    color: #DC7F08;
+    font-weight: bold;
+    background: url("../imgs/index_spr24.png") 0 -150px;
+
+}
+
+body .banner_b .bottom ul li.first-li span.first {
+    position: absolute;
+    top: 63px;
+    left: 43px;
+    font-size: 14px;
+
+}
+
+body .banner_b .bottom ul li.first-li span.first i {
+    color: #e41e27;
+}
+
+body .banner_b .bottom ul li.first-li span.first i i {
+    font-size: 24px;
+}
+
+body .banner_b .bottom ul li.first-li span.two {
+    position: absolute;
+    top: 90px;
+    left: 60px;
+    font-size: 12px;
+    color: rgba(0, 0, 0, .5);
+}
+
+body .banner_b .bottom ul li.first-li button {
+    position: absolute;
+    top: 135px;
+    left: 50%;
+    width: 143px;
+    margin-left: -71.5px;
+    height: 41px;
+    line-height: 41px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 21px;
+    background: #e41e27;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+body .banner_b .bottom ul li.first-li a {
+    position: absolute;
+    font-size: 13px;
+    top: 180px;
+    left: 70px;
+    color: #f7222c;;
+}
+
+body .banner_b .bottom ul li.first-li a.a-lq {
+    left: 135px;
+}
+
+body .banner_b .bottom ul li.first-li i.list {
+    position: absolute;
+    height: 14px;
+    width: 1px;
+    background-color: #b1b1b1;
+    top: 182px;
+    left: 128px;
+}
+
+body .banner_b .bottom ul li.more-li i {
+    position: absolute;
+}
+
+body .banner_b .bottom ul li.more-li i.title {
+    top: 42px;
+    left: 18px;
+    font-size: 19px;
+}
+
+body .banner_b .bottom ul li.more-li i.two-title {
+    top: 78px;
+    left: 18px;
+    font-size: 14px;
+    color: #959595;
+}
+
+body .banner_b .bottom ul li.more-li i.three-title {
+    top: 105px;
+    left: 18px;
+    font-size: 14px;
+    color: #959595;
+}
+
+body .banner_b .bottom ul li.more-li i.goto-zq {
+    color: #e41e27;
+    font-size: 18px;
+    top: 150px;
+    left: 18px;
+}
+
+body .banner_b .bottom ul li.more-li span {
+    position: absolute;
+    right: 15px;
+    top: 60px;
+    width: 124px;
+    height: 124px;
+    background: url("../imgs/spr24_cashback.png") 0 -15px;
+    transform: rotate(0deg)
+}
+
+body .banner_b .bottom ul li.more-li span.img-2 {
+    top: 55px;
+    width: 130px;
+    height: 130px;
+    background: url("../imgs/spr24_cashback.png") -122px -5px;
+
+}
+
+body .banner_b .bottom ul li.more-li span.img-3 {
+    top: 55px;
+    width: 130px;
+    height: 130px;
+    background: url("../imgs/spr24_cashback.png") -245px -8px;
+}
+@-webkit-keyframes mymove3 {
+    0% {
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(5deg);
+    }
+    100%{
+        transform:  rotate(5deg);
+    }
+}
+
+body .banner_b .bottom ul li.more-li:hover span.img-1 {
+    -webkit-animation: mymove3 3s both;
+}
+
+
+body .banner_b .bottom ul li.more-li:hover span.img-2 {
+    -webkit-animation: mymove3 3s both;
+}
+
+
+body .banner_b .bottom ul li.more-li:hover span.img-3 {
+    -webkit-animation: mymove3 3s both;
+}
+
+body .bottom_big .bottom{
+    display: none;
+}
+
+body .bottom_big .selected{
+    display: block;
+}
+
+.banner_b .bottom_big .No_two ul li:nth-child(1) p {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.banner_b .bottom_big .No_two ul li:nth-child(1) span {
+    line-height: 80px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.banner_b .bottom_big .No_two ul li:nth-child(2) p,
+.banner_b .bottom_big .No_two ul li:nth-child(3) p,
+.banner_b .bottom_big .No_two ul li:nth-child(4) p{
+    padding-top: 14px;
+    height: 134px;
+    margin: 0 auto;
+    background: url("../imgs/201709291710163424.png") no-repeat center center;
+    background-size: 130px 114px;
+
+}
+
+.banner_b .bottom_big .No_two ul li:nth-child(3) p {
+    background: url("../imgs/201709291711522567.jpg") no-repeat center center;
+    background-size: 115px 111px;
+}
+
+.banner_b .bottom_big .No_two ul li:nth-child(4) p {
+    background: url("../imgs/201709291906395123.jpg") no-repeat center center;
+    background-size: 115px 111px;
+}
+
+.banner_b .bottom_big .No_two ul li:nth-child(2) i.title,
+.banner_b .bottom_big .No_two ul li:nth-child(3) i.title,
+.banner_b .bottom_big .No_two ul li:nth-child(4) i.title {
+    display: block;
+    text-overflow: ellipsis;
+    padding: 0 20px;
+    font-size: 14px;
+    color: #383838;
+    width: auto;
+}
+
+.banner_b .bottom_big .No_two ul li:nth-child(2) i.jg,
+.banner_b .bottom_big .No_two ul li:nth-child(3) i.jg,
+.banner_b .bottom_big .No_two ul li:nth-child(4) i.jg {
+    display: block;
+    font-size: 12px;
+    color: #666;
+    margin-top: 3px;
+    width: auto;
+    padding: 0 20px;
+}
+
+
+.banner_b .bottom_big .No_two ul li:nth-child(2) i.db,
+.banner_b .bottom_big .No_two ul li:nth-child(3) i.db,
+.banner_b .bottom_big .No_two ul li:nth-child(4) i.db {
+    position: absolute;
+    bottom: -1px;
+    left: -1px;
+    width: 100%;
+    padding: 0 1px;
+    font-size: 14px;
+    color: #fff;
+    line-height: 34px;
+    background: #ff7a85;
+    text-indent: 20px;
+}
+
+.banner_b .bottom_big .No_two ul li:nth-child(2) i.db i.min,
+.banner_b .bottom_big .No_two ul li:nth-child(3) i.db i.min,
+.banner_b .bottom_big .No_two ul li:nth-child(4) i.db i.min {
+    color: #fff;
+    line-height: 34px;
+    text-indent: 20px;
+
+
+}
+
+.banner_b .bottom_big .No_two ul li:nth-child(2) i.db i.discount,
+.banner_b .bottom_big .No_two ul li:nth-child(3) i.db i.discount,
+.banner_b .bottom_big .No_two ul li:nth-child(4) i.db i.discount {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 95px;
+    background: #fd3f4e;
+    color: #fffb00;
+    font-size: 14px;
+    text-align: center;
+    text-indent: 0;
+}
+
+
+
+.banner_b .bottom_big .No_three ul li {
+    overflow: hidden;
+}
+
+
+.banner_b .bottom_big .No_three ul li p.img-p{
+    height: 120px;
+    background: url("../imgs/noone.jpg") center center;
+    cursor: pointer;
+}
+
+.banner_b .bottom_big .No_three ul li p.img-p:hover {
+    transform: scale(1.01);
+}
+
+.banner_b .bottom_big .No_three ul li p.txt-p{
+    margin-top: 16px;
+    height: 26px;
+    line-height: 26px;
+    font-weight: normal;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+}
+
+.banner_b .bottom_big .No_three ul li p.txt-p i {
+    color: red;
+}
+
+.banner_b .bottom_big .No_three ul li p.btn-p {
+    text-align: center;
+}
+
+.banner_b .bottom_big .No_three ul li p.btn-p a {
+    margin-top: 10px;
+    display: inline-block;
+    width: 140px;
+    height: 36px;
+    border: 1px solid red;
+    border-radius:20px;
+    font-size: 14px;
+    line-height: 36px;
+    color:red;
+}
+.banner_b .bottom_big .No_three ul li p.btn-p a:hover {
+    background-color: red;
+    color: white;
+}
+
+
+.banner_b .bottom_big .No_three ul li:nth-child(3) .img-p {
+    background: url("../imgs/notwo.jpg") center center;
+
+}
+
+.banner_b .bottom_big .No_three ul li:nth-child(4) .img-p {
+    background: url("../imgs/nothree.jpg") center center;
+
+}
+
+
+.banner_b .bottom_big .No_two ul li:first-child i.fp{
+    position: absolute;
+    left:40%;
+    margin-left: -37px;
+    padding-top: 12px;
+    font-size: 20px;
+}
+
+.banner_b .bottom_big .No_two ul li:first-child span {
+    height: 102px;
+    width: 102px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -51px;
+    margin-left: -51px;
+    background-color: white;
+    border-radius:50%;
+    overflow: hidden;
+}
+
+.banner_b .bottom_big .No_two ul li:first-child span i {
+    position: absolute;
+    left: 1px;
+    bottom: 0;
+    width: 273px;
+    height: 55px;
+    background: url("../imgs/spr24_jinrong.png") -125px 0 ;
+
+}
+
+.banner_b .bottom_big .No_two ul li:first-child>i{
+    position: absolute;
+    left: 50%;
+    margin-left: -90px;
+    bottom: 10px;
+    height: 40px;
+    line-height: 40px;
+    width: 140px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 21px;
+    background: #e41e27;
+    text-align: center;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.banner_b .bottom_big .No_three ul li {
+    cursor: default;
+}
+
+.banner_b .bottom_big .No_three ul li:first-child {
+    background: url("../imgs/youxi.png") center center  ;
+    border: none;
+}
+
+
+
+body .banner_b .bottom_big .No_four ul li {
+    width: 368px;
+    height: 190px;
+    background-color: #FFF5D6;
+    margin-top: 48px;
+    cursor: pointer;
+}
+
+
+body .banner_b .bottom_big .No_four ul li i {
+    position: absolute;
+    left: 10px;
+    height: 170px;
+    bottom: 0;
+    width: 50%;
+    background: url("../imgs/toone.png") no-repeat;
+}
+
+body .banner_b .bottom_big .No_four ul li div.cont {
+    margin: 12.78% 0 0 58.33%;
+}
+
+body .banner_b .bottom_big .No_four ul li div.cont p.title {
+    margin-bottom: 2px;
+    width: 96%;
+    font-size: 14px;
+    overflow: hidden;
+
+}
+
+
+body .banner_b .bottom_big .No_four ul li div.cont p.zs {
+    width: 96%;
+    font-size: 12px;
+    color: #8b8b8b;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+body .banner_b .bottom_big .No_four ul li div.cont a {
+    margin-top: 22%;
+    width: 98px;
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    color: #dc0000;
+    border: 1px solid #e41e27;
+    border-radius: 17px;
+}
+
+body .banner_b .bottom_big .No_four ul li:hover div.cont a {
+    background-color: #e41e27;
+    color: white;
+}
+
+body .banner_b .bottom_big .No_four ul li:nth-child(2) i{
+    background: url("../imgs/totwo.png") no-repeat;
+}
+
+body .banner_b .bottom_big .No_four ul li:nth-child(3) i{
+    background: url("../imgs/tothree.png") no-repeat;
+}
+
+
+
+
+body .banner_b .bottom_big .No_five {
+    height: 290px;
+    width: 1200px;
+}
+
+body .banner_b .bottom_big .No_five .left {
+    float: left;
+    width: 20%;
+    height: 100%;
+    position: relative;
+}
+
+body .banner_b .bottom_big .No_five .left .rl {
+    position: absolute;
+    right: 0;
+    top: 30px;
+    width: 202px;
+    height: 230px;
+    background-color: #FFF5D6;
+    border-radius: 10px;
+}
+
+body .banner_b .bottom_big .No_five .left .rl .top {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #fe8e0b;
+    border-radius:10px 10px 0 0;
+    line-height: 60px;
+    text-align: center;
+
+}
+
+body .banner_b .bottom_big .No_five .left .rl .top i {
+    position: absolute;
+    left: 20%;
+    top: -7px;
+    width: 14px;
+    height: 26px;
+    background: url("../imgs/index_spr24.png") -200px -50px;
+}
+
+body .banner_b .bottom_big .No_five .left .rl .top i.right {
+    left: 75%;
+}
+
+body .banner_b .bottom_big .No_five .left .rl .top span {
+    display: block;
+    color: #fff;
+    margin-top: 8px;
+}
+
+
+body .banner_b .bottom_big .No_five .left .rl .time  {
+    position: absolute;
+    width: 100%;
+    top: 80px;
+    font-size: 30px;
+    text-align: center;
+}
+
+body .banner_b .bottom_big .No_five .left .rl a,
+body .banner_b .bottom_big .No_five .left .rl i{
+    position: absolute;
+    color: #e41e27;
+    position: absolute;
+    font-size:  12px;
+
+}
+
+body .banner_b .bottom_big .No_five .left .rl a.address,
+body .banner_b .bottom_big .No_five .left .rl a.lq,
+body .banner_b .bottom_big .No_five .left .rl i {
+    bottom:25px;
+    left: 22%;
+}
+
+body .banner_b .bottom_big .No_five .left .rl a.lq {
+    left: 55%;
+
+}
+
+body .banner_b .bottom_big .No_five .left .rl a.address:hover,
+body .banner_b .bottom_big .No_five .left .rl a.lq:hover{
+    text-decoration: underline;
+}
+
+
+
+body .banner_b .bottom_big .No_five .left .rl i {
+    left: 50%;
+    bottom: 26px;
+}
+
+body .banner_b .bottom_big .No_five .left .rl .btn {
+    top: 140px;
+    width: 100%;
+    left: 50%;
+    margin-left: -71px;
+    width: 143px;
+    line-height: 41px;
+    border-radius:20px;
+    background-color: #E41E27;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+body .banner_b .bottom_big .No_five .left .rl .btn:hover {
+    background-color: #F7222C;
+}
+
+body .banner_b .bottom_big .No_five .right {
+    float: right;
+    position: relative;
+    width: 80%;
+    height: 100%;
+}
+
+body .banner_b .bottom_big .No_five .right .top-title {
+    margin: 0 auto 30px;
+    padding-top: 8px;
+    width: 75%;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    color: #ff8a00;
+}
+
+body .banner_b .bottom_big .No_five .right ul li {
+    width: 240px;
+    height: 211px;
+    float: left;
+    margin: 0;
+    border: 0;
+    background-color: #fff;
+    cursor: default;
+}
+
+body .banner_b .bottom_big .No_five .right ul li a.a-img {
+    display: block;
+    width: 170px;
+    height: 143px;
+    margin: 0 auto;
+    background: url("../imgs/201606271745173858.png");
+}
+
+body .banner_b .bottom_big .No_five .right ul li:hover a.a-img {
+    transform: scale(1.03);
+}
+
+body .banner_b .bottom_big .No_five .right ul li i.i-zs {
+    display: block;
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: center;
+    color: #333;
+    margin-top: 10px;
+}
+
+body .banner_b .bottom_big .No_five .right ul li a.a-lq {
+    display: block;
+    height: 26px;
+    line-height: 26px;
+    color: #e41e27;
+    text-align: center;
+    margin-top: 8px;
+}
+
+body .banner_b .bottom_big .No_five .right ul li a.a-lq:hover {
+    text-decoration: underline;
+}
+
+body .banner_b .bottom_big .No_five .right ul li:nth-child(2) a.a-img {
+    background: url("../imgs/201612121913507094.png");
+}
+
+body .banner_b .bottom_big .No_five .right ul li:nth-child(3) a.a-img {
+    background: url("../imgs/201710171435327415.png");
+}
+
+body .banner_b .bottom_big .No_five .right ul li:nth-child(4) a.a-img {
+    background: url("../imgs/201710171439301578.png");
+}
+
+body .banner_b .bottom_big .No_five .right ul li span {
+    position: absolute;
+    left: 50%;
+    top: -40px;
+    margin-left: -16px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #ff9c00;
+    border: 1px solid #ff9c00;
+    text-align: center;
+    line-height: 32px;
+    font-size: 12px;
+    color: #fff;
+}
+
+body .banner_b .bottom_big .No_five .right ul li:hover span {
+    color: #ff9c00;
+    background-color: #fff;
+}
+
+.content .center {
+    position: relative;
+    width: 1200px;
+    height: 825px;
+    margin: 0 auto;
+}
+
+
+.content .backg{
+    position: absolute;
+    width: 100%;
+}
+
+
+.content .center .box {
+    position: absolute;
+    top: 25.25%;
+    font-size: 16px;
+    width: 100%;
+    right: 6%;
+    height: 425px;
+}
+
+.content .one .center .box .hide {
+    width: 400px;
+    height: 200px;
+}
+
+.content .one .center .box .txt-hide .top {
+    float: right;
+    width: 346px;
+    height: 201px;
+    background: url("../imgs/tex_spr.png") -50px 0;
+}
+
+.content .center .box .txt-hide a.btn_vip {
+    position: absolute;
+    right: 0;
+    top: 220px;
+    width: 170px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 26px;
+    font-size: 18px;
+    text-align: center;
+    color: #dc0000;
+    border: 1px solid #e41e27;
+}
+
+.content .one .center .box .txt-hide ul {
+    position: absolute;
+    right: 0;
+    top: 320px;
+}
+
+.content .one .center .box .txt-hide ul li {
+    width: 120px;
+    height: 84px;
+    float: left;
+}
+
+.content .one .center .box .txt-hide ul li.list {
+    width: 1px;
+    height: 84px;
+    background-color: #ccc;
+}
+
+.content .one .center .box .txt-hide ul li a {
+    display: block;
+    margin: 0 auto;
+    width: 64px;
+    height: 84px;
+    background: url("../imgs/scn_spr.png");
+}
+
+.content .one .center .box .txt-hide ul li:hover a {
+    background: url("../imgs/scn_spr.png") 0 -100px;
+}
+
+.content .one .center .box .txt-hide ul li:nth-child(3) a {
+    background: url("../imgs/scn_spr.png") -100px 0;
+}
+
+.content .one .center .box .txt-hide ul li:nth-child(3):hover a {
+    background: url("../imgs/scn_spr.png") -100px -100px;
+}
+
+
+.content .one .center .box .txt-hide ul li:nth-child(5) a {
+    width: 96px;
+    height: 84px;
+    background: url("../imgs/scn_spr.png") -300px 0;
+}
+
+.content .one .center .box .txt-hide ul li:nth-child(5):hover a {
+
+    background: url("../imgs/scn_spr.png") -300px -100px;
+}
+
+.content .one .backg img {
+    width: 100%;
+}
+
+
+/*--------------------------------the 2nd photo----------------------------------------*/
+
+.content .two .backg img {
+    width: 100%;
+}
+
+.content .two .center .box {
+    position: relative;
+    left: 50px;
+}
+
+.content .two .center .box .txt-hide .top {
+    float: left;
+    background: url("../imgs/tex_spr.png") 0 -300px;
+    width: 350px;
+    height: 200px;
+}
+
+.content .two .center .box .txt-hide .btn_vip {
+    right: 0;
+}
+
+.content .two .center .box .txt-hide ul {
+    position: absolute;
+    top: 300px;
+}
+
+.content .two .center .box .txt-hide ul li {
+    float: left;
+    width: 121px;
+    height: 84px;
+}
+
+.content .two .center .box .txt-hide ul li a {
+    display: block;
+    margin: 0 auto;
+    width: 65px;
+    height: 84px;
+    background: url("../imgs/scn_spr.png") 0 -200px;
+}
+
+.content .two .center .box .txt-hide ul li.list {
+    width: 1px;
+    height: 84px;
+    background-color: #ccc;
+}
+
+.content .two .center .box .txt-hide ul li a:hover {
+    background: url("../imgs/scn_spr.png") 0 -300px;
+}
+
+.content .two .center .box .txt-hide ul li:nth-child(3) a {
+    display: block;
+    margin: 0 auto;
+    width: 65px;
+    height: 84px;
+    background: url("../imgs/scn_spr.png") -100px -200px;
+}
+
+
+.content .two .center .box .txt-hide ul li:hover:nth-child(3) a {
+    background: url("../imgs/scn_spr.png") -100px -300px;
+}
+
+
+.content .two .center .box .txt-hide ul li:nth-child(5) a {
+    display: block;
+    margin: 0 auto;
+    width: 65px;
+    height: 84px;
+    background: url("../imgs/scn_spr.png") -200px -200px;
+}
+
+
+.content .two .center .box .txt-hide ul li:hover:nth-child(5) a {
+    background: url("../imgs/scn_spr.png") -200px -300px;
+}
+
+.content .two .center .box .txt-hide .btn_vip {
+    left: 0;
+}
+
+
+
+/*----------------------------------3rd photo---------------------------------------*/
+.content .three .backg img {
+    width: 100%;
+}
+
+.content .three .center .box {
+    position: relative;
+    left: 50px;
+}
+
+.content .three .center .box .txt-hide .top {
+    float: right;
+    background: url("../imgs/tex_spr.png") 0 -600px no-repeat;
+    outline: hidden;
+    width: 450px;
+    height: 130px;
+}
+
+.content .three .center .box .txt-hide .btn_vip {
+    top:170px;
+    right: 0;
+}
+
+.content .three .center .box .txt-hide ul {
+    position: absolute;
+    top: 250px;
+    right: 0;
+}
+
+.content .three .center .box .txt-hide ul li {
+    float: left;
+    width: 121px;
+    height: 84px;
+}
+
+.content .three .center .box .txt-hide ul li a {
+    display: block;
+    margin: 0 auto;
+    width: 97px;
+    height: 84px;
+    background: url("../imgs/scn_spr.png") 0 -400px;
+}
+
+.content .three .center .box .txt-hide ul li.list {
+    width: 1px;
+    height: 84px;
+    background-color: #ccc;
+}
+
+.content .three .center .box .txt-hide ul li a:hover {
+    background: url("../imgs/scn_spr.png") 0 -500px;
+}
+
+.content .three .center .box .txt-hide ul li:nth-child(3) a {
+    display: block;
+    margin: 0 auto;
+    background: url("../imgs/scn_spr.png") -200px -400px;
+}
+
+
+.content .three .center .box .txt-hide ul li:hover:nth-child(3) a {
+    background: url("../imgs/scn_spr.png") -200px -500px;
+}
+
+
+.content .three .center .box .txt-hide ul li:nth-child(5) a {
+    display: block;
+    margin: 0 auto;
+    background: url("../imgs/scn_spr.png") -400px -400px;
+}
+
+
+.content .three .center .box .txt-hide ul li:hover:nth-child(5) a {
+    background: url("../imgs/scn_spr.png") -400px -500px;
+}
+
+.content .one,
+.content .two,
+.content .three {
+    height: 775px;
+}
+/*------------------------------foot----------------------------*/
+.footer {
+    height: 370px;
+}
+
+.footer .mapin {
+    padding: 30px 0 0;
+    min-height: 138px;
+    height: 230px;
+    margin-top: 90px;
+}
+
+.footer .mapin dl {
+    float: left;
+}
+
+.footer .mapin .fw dt {
+    margin-bottom: 27px;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.footer .mapin .fw {
+    width: 43%;
+    max-width: 462px;
+    padding-left: 35px;
+    padding-right: 55px;
+}
+
+.footer .mapin .fw dd a {
+    display: inline-block;
+    width: 154px;
+    margin: 0px 0 10px;
+    height: 20px;
+    line-height: 20px;
+    color: #343434;
+}
+
+.footer .mapin .fw dd a:hover {
+    color: red;
+}
+
+.footer .mapin .fw dd a i {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 15px;
+    overflow: hidden;
+    background: url("../imgs/bg_basespr.png") no-repeat -110px -37px;
+}
+
+.footer .mapin .fw dd a:nth-child(2) i {
+    background: url("../imgs/bg_basespr.png") no-repeat -240px -37px;
+}
+
+.footer .mapin .fw dd a:nth-child(3) i {
+    background: url("../imgs/bg_basespr.png") no-repeat -66px -37px;
+}
+
+.footer .mapin .fw dd a:nth-child(4) i {
+    background: url("../imgs/bg_basespr.png") no-repeat -165px -37px;
+}
+
+.footer .mapin .fw dd a:nth-child(5) i {
+    background: url("../imgs/bg_basespr.png") no-repeat -190px -37px;
+}
+
+.footer .mapin .fw dd a:nth-child(6) i {
+    background: url("../imgs/bg_basespr.png") no-repeat -22px -37px;
+}
+
+.footer .mapin .fw dd a:nth-child(7) i {
+    background: url("../imgs/bg_basespr.png") no-repeat -265px -37px;
+}
+
+
+
+/*----------------------feedback------------------------*/
+
+.footer .mapin .kf {
+    width: 33%;
+}
+
+.footer .mapin .kf dt {
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.footer .mapin .kf dd p.txt_kf {
+    display: inline-block;
+    width: 280px;
+    height: 21px;
+    margin-bottom: 4px;
+    background: url("../imgs/bg_basespr.png") no-repeat -40px 0;
+}
+
+.footer .mapin .kf dd p:nth-child(2){
+    margin-top: 5px;
+}
+
+.footer .mapin .kf dd p a {
+    color: #000;
+
+}
+
+.footer .mapin .kf dd p:nth-child(2) i {
+    display: inline-block;
+    margin: 0 20px 0 20px;
+}
+
+/*------------------------------------look us---------------------------------------*/
+
+.footer .mapin .gz{
+    position: relative;
+}
+
+.footer .mapin .gz dt {
+    font-size: 18px;
+    margin-bottom: 28px;
+    line-height: 1;
+}
+
+.footer .mapin .gz dd a {
+    display: block;
+    color: #000;
+    margin-top: -5px;
+}
+
+.footer .mapin .gz dd a i {
+    vertical-align: top;
+    margin-right: 10px;
+    display: inline-block;
+    height: 17px;
+    width: 17px;
+    background: url("../imgs/bg_basespr.png") -20px 0;
+}
+
+.footer .mapin .gz dd a i.wx {
+    background: url("../imgs/bg_basespr.png") -20px -17px;
+}
+
+.footer .mapin .gz dd a:hover div.tc {
+    display: block;
+}
+
+.footer .mapin .gz dd a i.qq {
+    background: url("../imgs/bg_basespr.png") -325px 0;
+}
+
+
+.footer .mapin .gz dd div.tc {
+    position: absolute;
+    left: 0px;
+    top: 100px;
+    border: 1px #E3E3E3 solid;
+    background: #fff;
+    padding: 8px 10px;
+    display: none;
+
+}
+
+.footer .mapin .gz dd div.tc p {
+    width: 85px;
+    height: 85px;
+    background: url("../imgs/vipwx.png");
+}
+
+.footer .mapin .gz dd div.tc em {
+    position: absolute;
+    top: -8px;
+    left: 50%;
+    width: 15px;
+    height: 8px;
+    margin-left: -7px;
+    background: url("../imgs/bg_basespr.png") no-repeat -40px -24px;
+    z-index: 9999;
+}
+
+
+
+
+.footer .mapin .gz dd a#qqtc:hover .qqtc {
+    display: block;
+}
+
+.footer .mapin .gz dd div.qqtc {
+    position: absolute;
+    left: 0px;
+    top: 132px;
+    border: 1px #E3E3E3 solid;
+    background: #fff;
+    padding: 8px 10px;
+    display: none;
+}
+
+.footer .mapin .gz dd div.qqtc p {
+    width: 85px;
+    height: 85px;
+    background: url("../imgs/vipwx.png");
+}
+
+.footer .mapin .gz dd div.qqtc em {
+    position: absolute;
+    top: -8px;
+    left: 50%;
+    width: 15px;
+    height: 8px;
+    margin-left: -7px;
+    background: url("../imgs/bg_basespr.png") no-repeat -40px -24px;
+    z-index: 9999;
+}
+
+
+.footer .foot {
+    border-top: 1px #C6C6C6 dashed;
+    padding: 30px 0 70px;
+    text-align: center;
+    line-height: 1;
+    color: #8B8B8B;
+    font-size: 14px;
+}
+
+.footer .foot p {
+    text-align: center;
+    height: 14px;
+}
+
+.footer .foot p a {
+    color: #8B8B8B;
+    margin-right: 30px;
+}
+
+.footer .foot p a:hover {
+    color: red;
+}
+
+
+.backg img {
+    width: 100%;
+    height: 100%;
+}
+
+

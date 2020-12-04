@@ -1,0 +1,472 @@
+/* begin */
+body,
+div,
+span,
+img,
+i,
+em,
+input,
+a,
+strong,
+b,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin:0;
+    padding:0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+
+
+input {
+    border:0 none;
+    outline: none;
+}
+
+img {
+    border:0 none;
+    vertical-align: middle;
+}
+
+i,
+em {
+    font-style: normal;
+}
+
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+b,
+strong {
+    font-weight: normal;
+}
+
+body {
+    background-color: black;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+.w {
+    width: 995px;
+    margin:0 auto;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear:both;
+    height: 0;
+    visibility: hidden;
+}
+
+.clearfix {
+    *zoom:1;
+}
+/*begin end*/
+
+/*background photo*/
+.outer {
+    position: relative;
+    overflow: hidden;
+    /*background: url("../imgs/xunlei9/page1_bg.jpg") center center;*/
+}
+
+/*video*/
+/*background video*/
+@-webkit-keyframes mymove {
+    0% {
+        transform: rotate(0deg) scale(1);
+    }
+    50% {
+        transform:rotate(-110deg) scale(5);
+    }
+    80% {
+        transform:scale(10);
+    }
+    100% {
+        transform:  rotate(-360deg) ;
+    }
+}
+/*point vedio*/
+@-webkit-keyframes pointMove {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform:  rotate(-360deg) ;
+    }
+}
+/*2line vedio*/
+@-webkit-keyframes lineMove {
+    0% {
+        transform: scale(4);
+        opacity:0;
+    }
+    2% {
+        transform: scale(0.1);
+        opacity:0;
+    }
+    3% {
+        opacity:1;
+    }
+    4% {
+        transform: scale(4);
+        opacity:0;
+    }
+}
+/*plant move video*/
+@-webkit-keyframes starMove {
+    0% {
+        transform: scale(0);
+    }
+    20% {
+        transform: scale(1.5);
+    }
+    40% {
+        transform: scale(3);
+    }
+    100% {
+        transform: scale(5);
+    }
+}
+.outer .general {
+    width: 100%;
+    height: 100%;
+    display:none;
+}
+.outer .show {
+    display:block;
+}
+/*1photo vedio*/
+.outer .bg1 {
+    background: url("../imgs/xunlei9/page1_bg.jpg") center center;
+    /*bigger*/
+    -webkit-transform: scale(.8);
+    /*photo add video*/
+    -webkit-animation: mymove 400s both;
+}
+.outer .bg1 .smallPoint {
+    width: 100%;
+    height: 100%;
+    background: url("../imgs/xunlei9/transparent.png");
+    -webkit-transform: scale(.5);
+    opacity:0.7;
+    -webkit-animation: pointMove 500s both;
+}
+/*2photo video*/
+.outer .bg2 {
+    background: url("../imgs/xunlei9/point.png") center center;
+    -webkit-transform: scale(.3);
+    -webkit-animation: mymove 300s both;
+}
+.outer .bg2 .smallLine {
+    width: 62px;
+    height: 72px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translateX(-50%) translateY(-50%);
+    background: url("../imgs/xunlei9/line.png");
+    -webkit-animation: lineMove 100s both;
+}
+/*3photo video*/
+/*3plant move video*/
+@-webkit-keyframes mymove3 {
+    0% {
+        transform: rotate(0deg) scale(1);
+    }
+    50% {
+        transform: scale(5);
+    }
+    80% {
+        transform:scale(10);
+    }
+    100% {
+        transform:rotate(-45deg) ;
+    }
+}
+/*3background move video*/
+.outer .bg3 {
+    background: url("../imgs/xunlei9/page3_bg.jpg") center center;
+}
+/*point move video*/
+.outer .bg3 .smallPoint {
+    /*width: 100%;*/
+    position: relative;
+    height: 100%;
+    background: url("../imgs/xunlei9/transparent.png");
+    z-index: 2;
+    opacity:1;
+    -webkit-animation: mymove3 100s both;
+}
+/*plant video*/
+.outer .ball {
+    /*width: 100%;*/
+    position: relative;
+    height: 100%;
+    background: url("../imgs/xunlei9/star.png") no-repeat center center;
+    /*plant add bigger---------------*/
+    background-size: 500px 500px;
+    /*change plant bigger or smaller*/
+    -webkit-transform: scale(0.01);
+    z-index: 1;
+    -webkit-animation: starMove 100s both;
+}
+/*4photo video*/
+/*lighting vdeo*/
+@-webkit-keyframes lightMove {
+    0% {
+        transform: translateX(1000px);
+    }
+    1% {
+        transform: translateX(150px);
+    }
+    5% {
+        transform: translateX(100px);
+    }
+    7% {
+        transform: translateX(-6000px);
+    }
+}
+/*sideways light video*/
+@-webkit-keyframes italicLightMove {
+    0% {
+        opacity:0;
+        transform: translateY(300px);
+    }
+    15% {
+        opacity:0;
+        transform: translateY(300px);
+    }
+    50% {
+        transform: translateY(800px);
+        transform: translateX(300px);
+        opacity:1;
+    }
+    55% {
+        opacity:0;
+    }
+    80% {
+         opacity:0;
+     }
+}
+.outer .bg4 {
+    background: url("../imgs/xunlei9/page3_bg.jpg") center center;
+}
+/*lighting video*/
+/*blue light video*/
+@-webkit-keyframes blueLightMove {
+    0% {
+        opacity:0;
+    }
+    2%{
+        opacity:0;
+    }
+    3% {
+        opacity:1;
+    }
+    4% {
+        transform:translateX(-40px);
+        opacity:0.5;
+    }
+    5% {
+        opacity:1;
+    }
+    7% {
+        opacity:0;
+    }
+}
+.outer .bg4 .light {
+    z-index: 5;
+    width: 1000px;
+    height: 360px;
+    left: 10%;
+    top:22%;
+    position: absolute;
+    -webkit-animation: lightMove 100s both;
+    -webkit-transform: scale(0.9);
+}
+/*blue light*/
+.outer .bg4 .blueLight {
+    position: fixed;
+    z-index: 999;
+    width: 1366px;
+    height: 637px;
+    opacity: 1;
+    left:0;
+    top: 0;
+    background: url("../imgs/xunlei9/light_3.png") 99% 45%;
+    -webkit-animation: blueLightMove 80s both;
+}
+/*sideways light*/
+.outer .bg4 .italicLight {
+    position: fixed;
+    left: 0px;
+    top:-300px;
+    /*left: -330px;*/
+    /*top: 500px;*/
+    width: 576px;
+    height: 401px;
+    background-color: #000;
+    background: url("../imgs/xunlei9/light_4.png") center center;
+    -webkit-animation: italicLightMove 10s both;
+}
+
+/*light basic layout*/
+.outer .bg4 .light div{
+    position: absolute;
+    width: 476px;
+    height: 72px;
+}
+.outer .bg4 .light div:nth-child(1){
+    top: 0;
+    left: 30%;
+    background: url("../imgs/xunlei9/light_1.png");
+}
+.outer .bg4 .light div:nth-child(2){
+    right: 0;
+    top: 50%;
+    transform:translateY(-50%);
+    background: url("../imgs/xunlei9/light_1.png");
+}
+.outer .bg4 .light div:nth-child(3){
+    bottom: 0;
+    left: 30%;
+    background: url("../imgs/xunlei9/light_1.png");
+}
+.outer .bg4 .light div:nth-child(4){
+    top: 50%;
+    transform:translateY(-50%);
+    left: 10%;
+    background: url("../imgs/xunlei9/light_2.png");
+}
+
+    /*---------------------static page---------------------*/
+/*text add effect*/
+@-webkit-keyframes shadow {
+     0% {
+         opacity:0;
+     }
+     5% {
+         opacity:1;
+     }
+ }
+/*beginning top*/
+/*logo part*/
+.outer .top .logo {
+    width: 156px;
+    height: 56px;
+    float:left;
+    
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 999;
+}
+/*navigation in right*/
+.outer .top .nav ul {
+    float:right;
+    position: fixed;
+    top: 38px;
+    z-index: 999;
+    right: 5px;
+}
+.outer .top .nav ul li{
+    float:left;
+    margin-right: 33px;
+    height: 35px;
+}
+/*.outer .top .nav ul li.whiteLine{*/
+    /*border-bottom: 2px solid #fff;*/
+/*}*/
+.outer .top .nav ul li.line {
+    /*width: 10px;*/
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+/*content part*/
+/*not displayed by default at first*/
+.outer .content {
+    width: 700px;
+    position: absolute;
+    z-index: 999;
+    bottom:15px;
+    left:50%;
+    margin-left: -350px;
+    text-align: center;
+}
+.outer .content div {
+    width: 100%;
+    display:none;
+    margin: 0 auto;
+    text-align:center;
+    -webkit-animation: shadow 100s both;
+}
+/*display*/
+.outer .content .current {
+    display:block;
+}
+/*text part*/
+.outer .content p {
+    font-size: 12px;
+    text-align: left;
+}
+.outer .content h2 {
+    font-size: 36px;
+}
+/*update right now*/
+.outer .content a {
+    width: 136px;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    border: 2px solid #fff;
+    display: block;
+    margin:0 auto;
+    margin-top: 30px;
+    margin-bottom: 46px;
+}
+/*copyright text*/
+.outer .content span {
+    color: #59484c;
+    font-size: 14px;
+}
+/*content part end*/
+/*carousel point beginning*/
+.outer .point ul{
+    position: absolute;
+    right: 50px;
+    bottom: 280px;
+    /*Prevent from being covered when light appeared*/
+    z-index: 999;
+}
+.outer .point li{
+    height: 6px;
+    width: 6px;
+    border: 2px solid #4e4550;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor:pointer;
+}
+.outer .point li.choose {
+    border: 2px solid #fff;
+}

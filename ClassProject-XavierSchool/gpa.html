@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>GPA CONCLUTE</title>
+	<meta name="keywords" content="Xevier School,mutant,professor X">
+	<meta name="description" content="a private academy for young mutants where they are able to receive an education without persecution from the outside world">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="shortcut icon" href="images/School%20badge.png">
+	
+	<!-- include main css -->
+	<link rel="stylesheet" type="text/css" href="css/slick.css"/>	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+	<link rel="stylesheet" type="text/css" href="css/jquery.mmenu.all.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<link href="font-awesome-4.5.0/css/font-awesome.min.css" rel='stylesheet' type='text/css' media="all" />
+	<link rel="stylesheet" type="text/css" href="css/animate.css"/>
+    <script src="js/gpacalculate.js"></script>
+    <script src="js/test_scores.js"></script>
+	
+	<!--[if lt IE 9]>
+    <script src="http://apps.bdimg.com/libs/html5shiv/r29/html5.min.js"></script>
+    <script src="http://apps.bdimg.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+	
+<div>
+	<!--header-->
+	<header class="header_zi">
+		<div class="container">
+			<div class="logo">
+					   <a href="homepage.html"><img src="images/School%20badge1.png" width="150px" height="150px" alt="" /></a>
+			</div>
+            <div>
+            <h1 class="code1">Xavier's School for Gifted Youngsters</h1>
+                <H2 class="code2">School Motto:“Mutatis Mutandis ("changing [only] those things which need to be changed")”</H2>
+            </div>
+        </div>
+        <div class="logo_right">
+        <nav class="nav">
+            <div class="search">
+					<span class="sea_x">
+                        <a href="https://www.google.com/">
+						<input type="" name="" id="" placeholder="Search">
+						<i class="fa fa-search"></i></a>		  	
+					</span>
+					<span class="y_z">
+						<a href="https://www.google.com/" class="zh active">Cn</a><a href="" class="en">En</a>
+					</span>
+				</div>
+            </nav>
+        </div>
+		   <div class="logo_right">
+				 <nav class="nav">
+					<ul>    
+					 <li><a href="homepage.html">HOME</a></li>
+					 <li><a href="science.html">COMPUTER SCIENCE</a></li>
+					 <li><a href="teacher.html">PROMINENT TEACHER</a></li>
+                     <li><a href="student.html">EXCELLENT GRADUATES</a></li>
+					 <li><a href="gpa.html" class="active">GPA CALCULATE</a></li>
+					 <li><a href="ta.html">TA APPLICATION</a></li>
+					
+					</ul>
+               </nav>
+		   </div>
+		
+	 </header>
+    <!--2 column layout-->
+    <style type="text/css">
+        .bl-div{
+            width:auto;
+            height:auto;
+            background: ;
+        }
+        .fl-div{
+            float: left;
+            width:inherit;
+            height:inherit;
+            background: ;
+        }
+        .fr-div{
+            float: right;
+            width:auto;
+            height:auto;
+            background: ;
+        }
+    </style>
+    <div class="bl-div">
+        <div class="fl-div"></div>
+        <div class="fr-div"></div>
+    </div>
+	<header class="header home_p">
+	   <div class="container">
+	   		<div class="pt1">
+					<p style="color: snow"><span class="bigger", style="float:none">GPA Calculate</span></p>
+		   </div>
+	   </div>
+	</header>		
+	<!--banner  start-->
+	<section class="banner_zi">
+	    <div><img src="images/xmen.jpg" height="422px" width="80%" alt=""></div>	   
+	</section>
+	<!--banner end-->
+	<div class="head_bar">
+		<span>LOCATION:</span><a href="homepage.html">GPA CALCULATE</a> > 
+	</div>
+   </div> 
+    
+    <!--GPA calculate start-->
+    <div style="width: 90%; height:400px; padding: 0px;">
+        <form name="Your GPA" action="" method="get">
+    <div class="gpa_tit">
+        <div class="gpa_tit1">
+            <div class="gpa_tit1_st">Course Name</div>
+        </div>
+    
+        <div class="gpa_tit1">
+            <div class="gpa_tit1_st">Letter Grade</div>
+        </div>
+    
+        <div class="gpa_tit1">
+            <div class="gpa_tit1_st">Cradit Hours</div>
+        </div>
+    </div>
+    
+    <div class="gpainput_cn">
+        <span class="gpainput_box">
+            <input class="gpainput_txt name" type="rank" name="course1" placeholder="Course 1" id="course1" required>
+            <input class="gpainput_txt score" type="rank" name="score1" placeholder="Letter Grade 1" id="score1" required>
+            <input class="gpainput_txt cradit" type="rank" name="cradit1" placeholder="Cradit Hours 1" id="cradit1" required>
+        </span>
+        </div>
+    
+    <div class="gpainput_cn">
+        <span class="gpainput_box">
+            <input class="gpainput_txt name" type="rank" name="course2" placeholder="Course 2" id="course2" required>
+            <input class="gpainput_txt score" type="rank" name="score2" placeholder="Letter Grade 2" id="score2" required>
+            <input class="gpainput_txt cradit" type="rank" name="cradit2" placeholder="Cradit Hours 2" id="cradit2" required>
+            
+        </span>
+            </div><br>
+        
+            <div class="add">
+                <span id="txtNumF">ADD Course</span><input id="txtNum" type="text" value="1" style="width: 40px; height: 30px;color: black"><a href="#" id="add_item">ADD</a>
+                
+            </div>
+        <div class="gpa_btn">
+            <input type="button" name="calculate" id="calculate" value="Calculate" class="gpa_calcu">
+            <input type="reset" name="reset" id="reset" value="Reset">
+        </div>
+        
+        </form>
+    </div>
+    <!--GPA calculate end-->
+    
+    <!--GPA calculate old start-->
+    <div>
+    <form name="Your GPA" action="" method="get">
+        <label for="name"><span><i style="color: red">*</i></span>Course Name:</label>
+    	<input type="text" name="course" placeholder="Fall out at lest 2 courses" id="name" required><br>
+        
+        <label for="score"><span><i style="color: red">*</i></span>Letter Grade:</label>
+    	<input type="text" name="grade" placeholder="Letter grade" id="score" required><br>
+        
+        <label for="credit"><span><i style="color: red">*</i></span>Cradit Hours:</label>
+    	<input type="text" name="hours" placeholder="Cradit hours" id="credit" required><br>
+        
+        <div class="botton1">
+        <input type="button" name="button" id="add" value="Add Course" class="gpa_calcu">
+        <input type="button" name="button" id="display_result" value="Display Result" class="gpa_calcu">
+        <input type="button" name="button" id="display_scores" value="Calculate" class="gpa_calcu">
+        </div>
+        </form>
+    </div>
+    
+    
+     <!--footer  start-->
+	    <footer class="footer">
+		<div class="footer_con">
+				<div class="con">
+					<div class="nei">
+						<div class="">
+							<ul class="di_nav clearfix">
+							<li><a href="homepage.html">HOME</a></li>
+                            <li><a href="science.html">COMPUTER SCIENCE</a></li>
+					        <li><a href="teacher.html">PROMINENT TEACHER</a></li>
+                            <li><a href="student.html">EXCELLENT GRADUATES</a></li>
+					        <li><a href="gpa.html" class="active">GPA CALCULATE</a></li>
+					        <li><a href="ta.html">TA APPLICATION</a></li>
+							</ul>
+							<div class="links">MORE INFO
+								<ul>
+									<li><a href="https://www.google.com/">Google</a></li>
+									<li><a href="https://xmenmovies.fandom.com/wiki/X-Mansion#Faculty.2FStaff">Marvel Wiki</a></li>
+									<li><a href="https://marvel.fandom.com/wiki/Xavier%27s_School_for_Gifted_Youngsters#History">Marvel Fandom</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="clear"></div>
+						<div class="lian">
+							TEL:<a href="tel:000-23333333">000-23333333</a><br />
+						 E-mail:<a href="mailto:schen6@aum.edu">schen6@aum.edu</a><br />
+						 
+						 Design By:<a href="csz.html">Suizi Chen From HBUE</a><br/>
+                        All right reserved, infringement must be prosecuted.<br/>
+						 <span class="clear"> 
+							 <a href="csz.html" target="Bast wishes!">
+								 <img src="images/nightcrawler.gif" alt="" />
+							 </a>			 
+						 </span> 	
+						</div>
+					</div>
+				</div>
+		</div>
+ 
+	 </footer>	
+	 <!--footer  end-->
+
+<!--Include Js-->
+<script src="http://apps.bdimg.com/libs/jquery/1.8.3/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+
+<!--mobile-->
+<script src="js/jquery.mmenu.all.min.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="js/public.js" type="text/javascript" charset="utf-8"></script>
+
+<!--slick-->
+<script src="js/slick.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/wow.js" type="text/javascript" charset="utf-8"></script>
+
+<!--placeholder-->
+<script src="js/jquery.placeholder.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	$(function(){ $('input, textarea').placeholder(); });
+</script>
+
+<!--<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>-->
+
+</body>
+</html>
