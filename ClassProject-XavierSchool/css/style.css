@@ -786,20 +786,23 @@ ul li {
   border: 1px solid #000000;
 }
 .footer .footer_con .con .nei {
-  width: 65%;
+  width: 95%;
   margin: auto;
   padding: 0px 0px;
 }
 .footer .footer_con .con .nei .di_nav {
   float: left;
-  width: 89%;
+  width: 100%;
+  text-align: center;
 }
 .footer .footer_con .con .nei .di_nav li {
   float:left;
-  width: 16.5%;
+  width: 17.95%;
   text-align: center;
-  line-height: 20px;
+  line-height: 40px;
   font-size: 20px;
+  vertical-align: middle;
+  margin-left: 5.4%;
 }
 .footer .footer_con .con .nei .di_nav li a {
   color: #666666;

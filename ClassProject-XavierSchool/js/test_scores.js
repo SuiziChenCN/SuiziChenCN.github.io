@@ -1,17 +1,14 @@
 var names = [];
 var scores = [];
-var credit = [];
 
 var $ = function (id) { return document.getElementById(id); }
 
 var addScore = function(){
     var name = $("name").value;
     var score = $("score").value;
-    var credit = $("credit").value;
     
     names[names.length] = name;
     scores[scores.length] = parseInt(score);
-    credit[credit.length] = credit;
 }
 
 var displayResults = function(){
@@ -36,7 +33,7 @@ var displayResults = function(){
             highest_score = "D";
             
         }
-        else if(average > 0 && average < 59){
+        else{
             highest_score = "F";
             
         }
@@ -72,3 +69,5 @@ var displayScores = function(){
     }
     $("scores_table").innerHTML = html;
 }
+
+
